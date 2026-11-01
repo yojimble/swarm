@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'swarm-relay'
+app = 'nbn-swam-relay'
 primary_region = 'sjc'
 
 [build]
@@ -12,8 +12,8 @@ primary_region = 'sjc'
 # Set DATABASE_URL as a secret: fly secrets set DATABASE_URL='postgres://...'
 [env]
   # Required
-  RELAY_NAME = "Swarm Relay"
-  RELAY_PUBKEY = "8ad8f1f78c8e11966242e28a7ca15c936b23a999d5fb91bfe4e4472e2d6eaf55"
+  RELAY_NAME = "NBN-Swam-Relay"
+  RELAY_PUBKEY = "6eb13d8905dd6c1498d313308fc91593acf2af8a36571cf944369ad40ec8defd"
   RELAY_DESCRIPTION = "Team Nostr relay"
   
   # Database
